@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body link="white" alink="gray" vlink="White"></body>
+    <h1>Pasta Carbonara</h1>
+    <button onclick="myFunction()">Night mode</button>
+    <nav>
+        <a href="rezepte.html">↩</a>
+    </nav>
+    <ol>
+        <li>Koche die Pasta al dente.</li> 
+        <li>Brate die Pancetta an, bis er knusprig ist.</li>
+        <li>Verrühre Eier und Käse und gib die heiße Pasta hinzu. Vermische alles gut.</li>
+        <li>Gib den knusprigen Pancetta oben drauf und serviere.</li> 
+    </ol>
+    <script src="js.js"></script>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>

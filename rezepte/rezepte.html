@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body link="white" alink="gray" vlink="White">
+    <h1>Rezepte</h1>
+    <button onclick="myFunction()">Night mode</button>
+    <input type="text" id="search" placeholder="Rezept suchen" oninput="displayRecipes()">
+    <div id="recipe-container">
+<a href="butterchicken.html" class="recipe-card">
+<h2>Butterchicken</h2>
+</a>
+<a href="tikka.html" class="recipe-card">
+<h2>Tikka Masala</h2>
+</a>
+<a href="KFC.html" class="recipe-card">
+<h2>KFC</h2>
+</a>
+<a href="bolognese.html" class="recipe-card">
+<h2>Bolognese</h2>
+</a>
+<a href="pav.html" class="recipe-card">
+<h2>Pav</h2>
+</a>
+<a href="pizza.html" class="recipe-card">
+<h2>Pizza</h2>
+</a>
+<a href="Brownies.html" class="recipe-card">
+<h2>Brownies</h2>
+</a>
+<a href="(Galic) Naan.html" class="recipe-card">
+    <h2>(Galic) Naan</h2>
+    </a>
+    <a href="risotto.html" class="recipe-card">
+        <h2>Risotto</h2>
+        </a>
+    </div>
+    <script src="js.js"></script>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
